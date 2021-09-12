@@ -4,12 +4,16 @@ import Highlight, { defaultProps } from 'prism-react-renderer'
 import { Pre, Line, LineNo, LineContent } from "../styles/code";
 
 
+
 const example_code = `
     def f():
         return 0
 `
 
-
+/**
+ * ! Had to pass code as a special prop and not in children because lines were not breaking
+ * todo : need to style the children as a sort of optional caption
+ */
 function CodeBlock({ children, language, code }) {
     return (
         <div>

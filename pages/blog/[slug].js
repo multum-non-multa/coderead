@@ -7,6 +7,7 @@ import hydrate from "next-mdx-remote/hydrate";
 import matter from "gray-matter";
 import AllComponents from "../../components/AllComponents";
 
+
 const components = AllComponents;
 
 export default function Posts({ source, frontMatter }) {

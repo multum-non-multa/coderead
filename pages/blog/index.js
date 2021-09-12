@@ -6,7 +6,7 @@ const BlogIndex = ({ allPostsData }) => {
   return (
     <>
       <Box sx={{ variant: "containers.page" }}>
-        <Heading>My Blog</Heading>
+        <Heading>Posts</Heading>
         <Flex
           sx={{
             flexWrap: "wrap",

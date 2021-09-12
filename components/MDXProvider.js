@@ -9,8 +9,8 @@ export default function MDXCompProvider(props) {
     h3: (props) => <Heading as="h3" sx={{ mt: "3", mb: "2" }} {...props} />,
     h4: (props) => <Heading as="h4" sx={{ mt: "3", mb: "2" }} {...props} />,
     // todo testing
-    pre: props => <div {...props} />,
-    code: props => <pre style={{ color: 'tomato' }} {...props} />,
+    // pre: props => <div {...props} />,
+    // code: props => <pre style={{ color: 'tomato' }} {...props} />,
     // * end testing
     p: (props) => <Text as="p" sx={{ mb: "2", lineHeight: "2" }} {...props} />,
     a: (props) => (

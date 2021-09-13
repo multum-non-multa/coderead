@@ -17,13 +17,13 @@ const Nav = () => (
             <Link href="/">
                 <a sx={{ fontSize: 4, cursor: 'pointer', px: "10%" }}>Home</a>
             </Link>
-            <Link href="/blog">
+            <Link href="/">
                 <a sx={{ fontSize: 4, cursor: 'pointer', px: "10%" }}>Posts</a>
             </Link>
-            <Link href="/resources">
+            <Link href="/">
                 <a sx={{ fontSize: 4, cursor: 'pointer', px: "10%" }}>Resources</a>
             </Link>
-            <Link href="/about">
+            <Link href="/">
                 <a sx={{ fontSize: 4, cursor: 'pointer', px: "10%" }}>About</a>
             </Link>
 

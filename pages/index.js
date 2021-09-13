@@ -16,28 +16,32 @@ export default function Home() {
         {/*  */}
 
         <div className={styles.grid}>
-          <Link href="/blog" >
-            <a className={styles.card}>
+          {/* <Link href="/" > */}
+            <a href="https://multum-non-multa.github.io/code/" className={styles.card}>
               <h2>&larr; Posts</h2>
-              <p>Posts for on coding in Python, using Replit, and various and sundry other things ...</p>
-            </a>
-          </Link>
+              <p style={{color: "firebrick", fontWeight: "bold"}}>
+                For now this is the only link that works.  It takes you to the current site.  
+                In a few days, all of that content should be ported here.
 
-          <Link href="/resources" >
+              </p>
+            </a>
+          {/* </Link> */}
+
+          <Link href="/" >
             <a className={styles.card}>
               <h2>Resources &uarr;</h2>
               <p>Resources on programming in general and Python in particular</p>
             </a>
           </Link>
 
-          <Link href="/about" >
+          <Link href="/" >
             <a className={styles.card}>
               <h2>&darr; About</h2>
               <p>If interested, this will tell you more ... </p>
             </a>
           </Link>
 
-          <a href="https://github.com/multum-non-multa" className={styles.card}>
+          <a href="" className={styles.card}>
             <h2>Source &rarr;</h2>
             <p>Resources on programming in general and Python in particular</p>
           </a>

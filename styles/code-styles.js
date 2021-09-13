@@ -13,10 +13,11 @@ export const Pre = styled.pre`
   margin: 1em 0;
   padding: 0.5em;
   overflow: scroll;
+  font-size: 1.3rem;
 
   & .token-line {
-    line-height: 1.3em;
-    height: 1.3em;
+    line-height: 1.5em;
+    height: 1.5em;
   }
 `;
 

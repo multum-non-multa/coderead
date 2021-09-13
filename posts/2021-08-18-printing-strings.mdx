@@ -34,38 +34,23 @@ excerpt: "Print, Strings, etc"
 
 ### a.  Goal: Generate a 'Title' with Two Separate String Inputs
 
-<div style={{
-        position: "relative",
-        paddingBottom: "56.25%",
-        height: "0" }}>
-    <iframe src="https://www.loom.com/embed/3bef87aeacfb4254bb1d5949e5a4bb35"
-        frameBorder="0"
-        webkitallowfullscreen="true"
-        mozallowfullscreen="true"
-        allowFullScreen={true}
-        style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%"}}>
-    </iframe>
-</div>
+<VideoFrame src={"https://www.loom.com/embed/3bef87aeacfb4254bb1d5949e5a4bb35"}/>
 
 
 Result:  Take two inputs from the console and, after combining them, print out the result:
 
-```
-
-Welcome.
-This program generates a title for any number of uses --- a restaurant, a band, whatever.
-
+<CodeBlock
+code={`Welcome.
+This program generates a title for any number of
+  uses --- a restaurant, a band, whatever.
 In what town or city were you born?
-
 Chicago
-
 What is your favorite food?
-
 Pizza
+You generated the title
+Pizza Chicago`} language='bash' />
 
-You generated the title Pizza Chicago
 
-```
 
 ### b.  Requirements
 
@@ -125,12 +110,14 @@ In order to complete this project, we need to know how to:
 
 - a _very_ common error with strings is to forget one of the quotation marks
 
-```bash
+<CodeBlock
+code={
+`
 File "main.py", line 1
     print('Hello, World)
                        ^
 SyntaxError: EOL while scanning string literal
-```
+`} language='bash' />
 
 #### b. Error Messages
 
@@ -156,59 +143,40 @@ If you cannot for the life of you figure out what the message means, copy the er
 
 #### c. `string` data type and comments
 
-```python
-
+<CodeBlock
+code={
+`
 # this is a comment
 # the hashtag tells the Python interpreter to ignore the whole line or ...
-
 print('a string to print')  # ... the right it
-
 # You will use comments a lot ... more on that later
-
 # Note these strings
-
 "Hello"
-
 # vs
-
 'Hello'
-
 # but not
-
 "Hello'
-
 #  also
-
 "Goodbye 'Cruel' World"
-
 # vs
-
 "Goodbye "Cruel" World"
-
 # special characters for strings and printing
 # escape
 "Goodbye \"Cruel\" World"
-
 # prints: Goodbye "Cruel" World
 # or
 "Goodbye 'Cruel' World" # combine single and double
-
 # also new line and tab characters
-
 "Hello\nHello"
-
 # if printed will print out
 # Hello
 # Hello
 # The escape n or \n instructs the interpreted to insert a line break
-
 "Hello\tHello"
-
 # will print
 # Hello     Hello
 # inserting a tab space between the two words
-
-```
+`}/>
 
 #### d. `string` concatenation
 
@@ -297,7 +265,7 @@ If you correct line 1, both lines will print.
 
 To both spot errors _before_ you run your code __and__ obtain help with Python, enable _Code intelligence_ in your repl:
 
-<iframe width="465" height="816" src="https://www.loom.com/embed/9335f63e611a49a1a336e6abce26a810" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<VideoFrame src="https://www.loom.com/embed/9335f63e611a49a1a336e6abce26a810" />
 
 ---
 
@@ -305,18 +273,7 @@ When you enable code intelligence notice a few things ...
 
 ---
 
-<div style={{
-        position: "relative",
-        paddingBottom: "56.25%",
-        height: "0" }}>
-    <iframe src="https://www.loom.com/embed/786180e2818c4ee38a025ee30f8d9f7a"
-        frameBorder="0"
-        webkitallowfullscreen="true"
-        mozallowfullscreen="true"
-        allowFullScreen={true}
-        style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%"}}>
-    </iframe>
-</div>
+<VideoFrame src="https://www.loom.com/embed/786180e2818c4ee38a025ee30f8d9f7a"/>
 
 ---
 - Somewhere in the line of code, a red, underscore squiggly line shows that something is not right.  Moreover, the red bar to the right of the frame emphasizes a problem.

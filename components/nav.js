@@ -7,11 +7,13 @@ import Link from 'next/link'
 const Nav = () => (
     <header sx={{ height: '60px', width: '100vw', borderBottom: '1px solid', borderColor: 'primary' }}>
         <nav sx={{ display: 'flex', alignItems: 'center', justifyContent: 'spread', variant: 'containers.page', height: '100%', }}>
-            <code>
-                <p sx={{ fontSize: 4, px: "10%" }}>
-                    &lt;code<span style={{ color: "firebrick" }}>re<span style={{ color: "darkgray" }}>a</span>d</span>/&gt;
-                </p>
-            </code>
+            <a href="/">
+                <code>
+                    <p sx={{ fontSize: 4, px: "10%" }}>
+                        &lt;code<span style={{ color: "firebrick" }}>re<span style={{ color: "darkgray" }}>a</span>d</span>/&gt;
+                    </p>
+                </code>
+            </a>
             <Link href="/">
                 <a sx={{ fontSize: 4, cursor: 'pointer', px: "10%" }}>Home</a>
             </Link>
